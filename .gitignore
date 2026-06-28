@@ -1,0 +1,2 @@
+# Ignore the heavy dependencies folder
+node_modules/

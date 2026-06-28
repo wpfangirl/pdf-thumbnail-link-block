@@ -1,0 +1,14 @@
+{
+  "name": "wpfangirl-pdf-thumbnail-block",
+  "version": "1.0.0",
+  "description": "Native block conversion for PDF Thumbnail Link",
+  "author": "WPFangirl",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.0.0"
+  }
+}

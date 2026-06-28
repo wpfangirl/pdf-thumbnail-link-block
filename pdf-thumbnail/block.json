@@ -1,0 +1,45 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpfangirl/pdf-thumbnail",
+  "version": "1.2.0",
+  "title": "PDF Thumbnail Link",
+  "category": "media",
+  "icon": "media-document",
+  "description": "Displays a thumbnail linking to a PDF document with custom title, caption, and visibility options.",
+  "keywords": [ "pdf", "image", "newsletter" ],
+  "supports": {
+    "align": [ "left", "center", "right" ],
+    "anchor": true,
+    "html": false
+  },
+  "textdomain": "pdf-thumbnail-link",
+  "attributes": {
+    "pdfId": { "type": "number", "default": 0 },
+    "pdfUrl": { "type": "string", "default": "" },
+    "pdfFilename": { "type": "string", "default": "" },
+    "pdfImageUrl": { "type": "string", "default": "" },
+    "imageSize": { "type": "string", "default": "medium" },
+    "imageAlt": { "type": "string", "default": "" },
+    "pdfTitle": { "type": "string", "default": "" },
+    "pdfCaption": { "type": "string", "default": "" },
+    "showTitle": { "type": "boolean", "default": true },
+    "showCaption": { "type": "boolean", "default": true }
+  },
+  "example": {
+    "attributes": {
+      "pdfId": 1,
+      "pdfUrl": "https://example.com/sample.pdf",
+      "pdfFilename": "sample-document.pdf",
+      "imageSize": "medium",
+      "imageAlt": "PDF Preview",
+      "pdfTitle": "Sample Newsletter Title",
+      "pdfCaption": "This is a sample caption.",
+      "showTitle": true,
+      "showCaption": true
+    }
+  },
+  "editorScript": "file:./build/index.js",
+  "style": "file:./build/style-index.css",
+  "render": "file:./render.php"
+}
