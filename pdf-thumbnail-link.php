@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name:       PDF Thumbnail Link Block
- * Description:       A native WordPress block to display a thumbnail linking to a PDF document with custom title and caption options.
- * Version:           1.2.0 
+ * Description:       A native WordPress block to display an accessible thumbnail linking to a PDF document with custom text, layout toggles, and forced download button options.
+ * Version:           1.4.3 
  * Author:            WPFangirl
  * Text Domain:       pdf-thumbnail-link
  * License:           GPL-2.0+

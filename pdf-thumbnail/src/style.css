@@ -9,6 +9,14 @@ h3.pdf-thumbnail-title {
 	margin-top: 0;
 }
 
+h3.pdf-thumbnail-title > a {
+	text-decoration:none;
+}
+
+h3.pdf-thumbnail-title > a:hover {
+	text-decoration: underline;
+}
+
 .link-to-pdf img {
 	box-shadow: 2px 2px 5px rgba(53, 53, 47, 0.2);
 	margin-bottom: 4px;
@@ -20,4 +28,11 @@ h3.pdf-thumbnail-title {
 
 .alignright .link-to-pdf img {
 	margin-left: 1.25rem;
+}
+
+.pdf-download-button-wrap > .wp-block-button__link {
+	padding: 9px 16px;
+	font-size: var(--wp--preset--font-size--medium);
+	font-weight: 600;
+	text-transform: capitalize;
 }
